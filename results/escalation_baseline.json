@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-01T12:22:27.553110+00:00",
+  "lexicon_escalation": [
+    "urgent",
+    "evaluate",
+    "assess",
+    "screen",
+    "risk",
+    "safety"
+  ],
+  "lexicon_deescalation": [
+    "monitor",
+    "routine",
+    "reassurance",
+    "follow-up"
+  ],
+  "matching": "word-prefix",
+  "splits": {
+    "hard": {
+      "n": 419,
+      "unique_most_escalation": 161,
+      "unique_pct": 38.4,
+      "tied_at_max": 176,
+      "tied_pct": 42.0,
+      "gold_at_max_pct": 80.4,
+      "accuracy_first_tie_pct": 54.2,
+      "accuracy_random_tiebreak_ev_pct": 52.8,
+      "accuracy_random_tiebreak_worst_pct": 38.4,
+      "accuracy_random_tiebreak_best_pct": 80.4
+    },
+    "core": {
+      "n": 2700,
+      "unique_most_escalation": 539,
+      "unique_pct": 20.0,
+      "tied_at_max": 872,
+      "tied_pct": 32.3,
+      "gold_at_max_pct": 52.3,
+      "accuracy_first_tie_pct": 29.7,
+      "accuracy_random_tiebreak_ev_pct": 30.5,
+      "accuracy_random_tiebreak_worst_pct": 20.0,
+      "accuracy_random_tiebreak_best_pct": 52.3
+    },
+    "real_clean": {
+      "n": 51,
+      "unique_most_escalation": 8,
+      "unique_pct": 15.7,
+      "tied_at_max": 31,
+      "tied_pct": 60.8,
+      "gold_at_max_pct": 76.5,
+      "accuracy_first_tie_pct": 41.2,
+      "accuracy_random_tiebreak_ev_pct": 36.3,
+      "accuracy_random_tiebreak_worst_pct": 15.7,
+      "accuracy_random_tiebreak_best_pct": 76.5
+    }
+  },
+  "hard_stratified_accuracy": {
+    "stratum_sizes": {
+      "unique_max": 161,
+      "tied_max": 176,
+      "not_max": 82
+    },
+    "per_model_accuracy_pct": {
+      "BioMistral-7B": {
+        "unique_max": 74.5,
+        "tied_max": 82.4,
+        "not_max": 68.3
+      },
+      "MiniMax-M2.7": {
+        "unique_max": 81.4,
+        "tied_max": 79.5,
+        "not_max": 87.8
+      },
+      "Qwen3-30B-A3B-Instruct": {
+        "unique_max": 88.8,
+        "tied_max": 86.4,
+        "not_max": 92.7
+      },
+      "Claude Opus 4.7": {
+        "unique_max": 85.1,
+        "tied_max": 88.1,
+        "not_max": 98.8
+      },
+      "Gemini 3.1 Pro": {
+        "unique_max": 86.3,
+        "tied_max": 81.8,
+        "not_max": 97.6
+      },
+      "Gemma-3-27B-it": {
+        "unique_max": 77.6,
+        "tied_max": 86.9,
+        "not_max": 89.0
+      },
+      "MedGemma-27B-it": {
+        "unique_max": 77.6,
+        "tied_max": 89.8,
+        "not_max": 87.8
+      },
+      "GPT-5.5": {
+        "unique_max": 93.2,
+        "tied_max": 84.7,
+        "not_max": 96.3
+      },
+      "MiMo-V2.5-Pro": {
+        "unique_max": 85.7,
+        "tied_max": 82.4,
+        "not_max": 93.9
+      },
+      "Mistral-Small-3.2-24B-Instruct": {
+        "unique_max": 85.1,
+        "tied_max": 89.2,
+        "not_max": 82.9
+      },
+      "GLM-5.1": {
+        "unique_max": 85.7,
+        "tied_max": 89.8,
+        "not_max": 92.7
+      }
+    },
+    "pooled_accuracy_pct": {
+      "unique_max": 83.7,
+      "tied_max": 85.5,
+      "not_max": 89.8
+    }
+  }
+}

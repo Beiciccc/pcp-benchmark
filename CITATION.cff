@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use PCP, please cite the paper below."
+title: "PCP: A Controlled Benchmark for Pragmatic Intention Recognition in Clinical Communication"
+authors:
+  - family-names: "Zhang"
+    given-names: "Kun"
+    orcid: "https://orcid.org/0009-0009-2455-8483"
+    affiliation: "School of Computer Science, University of Leeds"
+    email: "pjdf0740@leeds.ac.uk"
+license: CC-BY-4.0
+preferred-citation:
+  type: conference-paper
+  title: "PCP: A Controlled Benchmark for Pragmatic Intention Recognition in Clinical Communication"
+  authors:
+    - family-names: "Zhang"
+      given-names: "Kun"
+      orcid: "https://orcid.org/0009-0009-2455-8483"
+      affiliation: "School of Computer Science, University of Leeds"
+  collection-title: "Proceedings of the 3rd Workshop on Language Understanding in the Human-Machine Era (LUHME 2026)"
+  year: 2026
